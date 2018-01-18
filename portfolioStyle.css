@@ -1,0 +1,66 @@
+/*background color
+text color
+separate styling for headers and paragraphs
+borders around elements or above and below elements
+*/
+
+body {
+    background-color: #129FB2;
+}
+h1 {
+    color: #00DFFF;
+    font-family: verdana;
+    font-size: 300%;
+    margin: 30px;
+}
+p {
+    color: white;
+    font-family: courier;
+    font-size: 160%;
+}
+
+img{
+    margin: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: : #333;
+}
+
+nav li {
+    display: inline;
+    float:left;
+}
+
+nav li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav li a:active {
+    background-color: #FF198C;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
+
