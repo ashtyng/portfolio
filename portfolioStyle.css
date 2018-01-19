@@ -44,11 +44,11 @@ nav li a{
     text-decoration: none;
 }
 
-nav li a:hover:not(.active) {
+nav li a:hover:not(.currentTab) {
     background-color: #111;
 }
 
-nav li a.active {
+nav li a.currentTab {
     background-color: #FF198C;
 }
 
